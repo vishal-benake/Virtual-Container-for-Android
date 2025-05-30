@@ -26,7 +26,7 @@ A lightweight and secure virtual container system for Android that allows users 
 ### Steps
 
 ```bash
-git clone https://github.com/your-username/Virtual-Container-for-Android.git
+git clone https://github.com/vishal-benake/Virtual-Container-for-Android.git
 cd Virtual-Container-for-Android
 ```
 
