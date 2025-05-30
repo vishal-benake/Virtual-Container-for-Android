@@ -1,0 +1,103 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="WrapContentDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowMinWidthMajor">0%</item>
+        <item name="windowMinWidthMinor">0%</item>
+    </style>
+
+    <style name="Theme.BlackBox" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary_light</item>
+        <item name="colorSecondaryVariant">@color/primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="actionMenuTextColor">@color/primary_text</item>
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="ToolBarColorStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">#a8a8a8</item>
+    </style>
+
+    <style name="Theme.CheatUIDev" parent="@style/Theme.CheatUIDev.Base" tools:ignore="ResourceCycle" />
+
+    <style name="Theme.CheatUIDev.Base" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:colorBackground">@color/blaster_white</item>
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="colorError">@color/blaster_red</item>
+        <item name="colorOnBackground">@color/blaster_primary_dark</item>
+        <item name="colorOnError">@color/blaster_white</item>
+        <item name="colorOnPrimary">@color/blaster_white</item>
+        <item name="colorOnSecondary">@color/blaster_white</item>
+        <item name="colorPrimary">@color/blaster_primary</item>
+        <item name="colorPrimaryVariant">@color/blaster_primary_dark</item>
+        <item name="colorSecondary">@color/blaster_blue</item>
+        <item name="colorSecondaryVariant">@color/blaster_blue_dark</item>
+    </style>
+
+    <style name="Theme.CheatUIDev.MainActivity" parent="@style/Theme.CheatUIDev" />
+
+    <style name="Theme.CheatUIDev.MainActivity.ActionButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="Theme.CheatUIDev.MainActivity.CategoryIcon" parent="@style/Theme.CheatUIDev.MainActivity">
+        <item name="android:layout_width">20.0dip</item>
+        <item name="android:layout_height">20.0dip</item>
+        <item name="tint">?colorSecondary</item>
+    </style>
+
+    <style name="Theme.CheatUIDev.MainActivity.CategoryTitle" parent="@style/Theme.CheatUIDev.MainActivity">
+        <item name="android:textColor">?colorSecondary</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">3.0dip</item>
+        <item name="android:layout_marginEnd">3.0dip</item>
+    </style>
+
+    <style name="Theme.CheatUIDev.MainActivity.SummaryKeyText" parent="@style/Theme.CheatUIDev.MainActivity">
+        <item name="android:textAppearance">?textAppearanceBody2</item>
+        <item name="android:textColor">@android:color/tab_indicator_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Theme.CheatUIDev.MainActivity.SummaryValueText" parent="@style/Theme.CheatUIDev.MainActivity">
+        <item name="android:textAppearance">?textAppearanceBody2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">5.0dip</item>
+        <item name="android:layout_marginEnd">5.0dip</item>
+    </style>
+
+    <style name="Theme.CheatUIDev.OverlayService" parent="@style/Theme.CheatUIDev" />
+
+    <style name="Theme.CheatUIDev.ShapeAppearanceOverlay.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50.0%</item>
+    </style>
+</resources>
+
