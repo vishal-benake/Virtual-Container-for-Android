@@ -47,11 +47,4 @@ Open the project in Android Studio and run it on an emulator or a physical devic
 <h4>If you like, do follow me on Youtube</h4>
 <a href="https://www.youtube.com/@Code-With-Vishal">Connect with me on  Youtube</a>
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="20" height="20"> Instagram
-<h4>If you like, do follow me on Instagram</h4>
-<a href="https://www.instagram.com/vishaal_87">Connect with me on Instagram</a>
-
 ---
-
-© 2025 Vishal Benake. All rights reserved.  
-Unauthorized copying, distribution, or modification of this code is prohibited.
